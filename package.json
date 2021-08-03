@@ -1,0 +1,29 @@
+{
+  "name": "cookies-carioca",
+  "version": "0.1.0",
+  "author": "Arnon Rodrigues <arnonrdp@gmail.com> (https://arnon.dev)",
+  "description": "Cookies Carioca",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@vue/cli-plugin-typescript": "~5.0.1",
+    "@vue/cli-service": "~5.0.1",
+    "typescript": "~4.5.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
