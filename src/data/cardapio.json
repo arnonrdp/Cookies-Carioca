@@ -1,0 +1,74 @@
+{
+    "gallery": [
+        {
+            "name": "a",
+            "path": "/img/gallery01.jpeg"
+        },
+        {
+            "name": "b",
+            "path": "/img/gallery02.jpeg"
+        },
+        {
+            "name": "c",
+            "path": "/img/gallery03.jpeg"
+        },
+        {
+            "name": "d",
+            "path": "/img/gallery04.jpeg"
+        },
+        {
+            "name": "e",
+            "path": "/img/gallery05.jpeg"
+        },
+        {
+            "name": "f",
+            "path": "/img/gallery06.jpeg"
+        },
+        {
+            "name": "g",
+            "path": "/img/gallery07.jpeg"
+        },
+        {
+            "name": "h",
+            "path": "/img/gallery08.jpeg"
+        },
+        {
+            "name": "i",
+            "path": "/img/gallery09.jpeg"
+        },
+        {
+            "name": "j",
+            "path": "/img/gallery10.jpeg"
+        },
+        {
+            "name": "k",
+            "path": "/img/gallery11.jpeg"
+        },
+        {
+            "name": "l",
+            "path": "/img/gallery12.jpeg"
+        }
+    ],
+    "maispedidos": [
+        {
+            "name": "a",
+            "path": "/img/banner1.jpeg"
+        },
+        {
+            "name": "b",
+            "path": "/img/banner2.jpeg"
+        },
+        {
+            "name": "c",
+            "path": "/img/banner3.jpeg"
+        },
+        {
+            "name": "d",
+            "path": "/img/banner4.jpeg"
+        },
+        {
+            "name": "e",
+            "path": "/img/banner5.jpeg"
+        }
+    ]
+}
