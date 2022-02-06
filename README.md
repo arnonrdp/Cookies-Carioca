@@ -1,19 +1,10 @@
-# cookies-carioca
+# Cookies Carioca
 
-## Project setup
-```
-npm install
-```
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/website?url=https://cookies-carioca.vercel.app" alt="Website"></a>
+  <a href="#"><img src="https://img.shields.io/github/languages/code-size/arnonrdp/cookies-carioca" alt="GitHub code size in bytes" /></a>
+</p>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<a href="https://cookies-carioca.vercel.app">
+  <img src="https://cookies-carioca.vercel.app/main.jpg" alt="Página Inicial">
+</a>
