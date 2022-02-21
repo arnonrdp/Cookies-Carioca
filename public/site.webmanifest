@@ -1,0 +1,21 @@
+{
+    "name": "Cookies Carioca",
+    "short_name": "Cookies Carioca",
+    "description": "O Melhor Cookie do Rio de Janeiro. Prove nossos Cookies.Ø",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://cookiescarioca.com.br",
+    "theme_color": "#fffdf2",
+    "background_color": "#fffdf2",
+    "display": "standalone"
+}
