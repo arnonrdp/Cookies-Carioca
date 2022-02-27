@@ -1,6 +1,6 @@
 <template>
   <section id="footer">
-    <img src="@/assets/logoA.png" alt="" />
+    <img src="@/assets/logo.svg" alt="" />
     <p class="my-0">Cookies Carioca &copy; desde 2021. Todos os direitos reservados.</p>
     <a href="#top" class="animate__animated animate__shakeY"></a>
   </section>
@@ -25,12 +25,12 @@ export default Vue.extend({
 }
 
 img {
-  width: 80px;
+  width: 5rem;
 }
 
 a {
   background: url("../assets/totop.png") no-repeat center;
-  height: 40px;
-  width: 40px;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 </style>

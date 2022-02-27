@@ -43,7 +43,7 @@ export default Vue.extend({
 .carousel-caption h3 {
   color: #fee8c5;
   font-family: "Lobster";
-  font-size: 62px;
+  font-size: 3.875rem;
   font-weight: 400;
   line-height: 1;
 }
@@ -51,7 +51,7 @@ export default Vue.extend({
 .carousel-caption p {
   color: #fee8c5;
   font-family: "Roboto Slab";
-  font-size: 62px;
+  font-size: 3.875rem;
   font-weight: 300;
   line-height: 1;
 }
@@ -61,10 +61,16 @@ export default Vue.extend({
     padding: 0;
   }
   .carousel-caption h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
   .carousel-caption p {
-    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  #home {
+    margin-top: -2rem;
   }
 }
 

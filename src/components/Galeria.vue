@@ -34,7 +34,7 @@ h2 {
   color: #5e2e02;
   display: inline-block;
   font-family: "Lobster";
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   line-height: 1;
   margin: 1rem 0;
