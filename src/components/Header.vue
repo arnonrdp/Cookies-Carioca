@@ -1,21 +1,21 @@
 <template>
-  <section id="top" style="height: 114px">
+  <section id="top">
     <b-navbar toggleable="sm" type="dark" class="mx-3">
       <b-navbar-brand href="#" class="d-sm-block d-md-none">
-        <img src="@/assets/logoB.png" alt="" class="img-responsive" />
+        <img src="@/assets/logo.svg" alt="Logotipo" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse" />
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="mx-auto">
-          <b-nav-item class="mt-3" href="#home">home</b-nav-item>
-          <b-nav-item class="mt-3" href="#pedidos">mais pedidos</b-nav-item>
+        <b-navbar-nav class="mx-auto align-items-baseline">
+          <b-nav-item href="#home">home</b-nav-item>
+          <b-nav-item href="#pedidos">mais pedidos</b-nav-item>
           <b-navbar-brand href="#" class="d-none d-sm-none d-md-block">
-            <img src="@/assets/logoB.png" alt="" class="img-responsive" />
+            <img src="@/assets/logo.svg" alt="Logotipo" />
           </b-navbar-brand>
-          <b-nav-item class="mt-3" href="#galeria">galeria</b-nav-item>
-          <b-nav-item class="mt-3" href="#contato">contato</b-nav-item>
+          <b-nav-item href="#galeria">galeria</b-nav-item>
+          <b-nav-item href="#contato">contato</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -33,7 +33,7 @@ export default Vue.extend({
 <style scoped>
 #top {
   background: url(../assets/wave1.png) 0 0 repeat-x;
-  min-height: 114px;
+  height: 114px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -57,6 +57,11 @@ export default Vue.extend({
 .navbar-toggler:focus {
   background: #8b4f2e;
 }
+
+img[alt="Logotipo"] {
+  width: 120px;
+}
+
 li {
   background: url(../assets/divider.png) left 16px no-repeat;
   display: inline-block;
@@ -110,8 +115,6 @@ li:nth-child(4) {
 
 li > a:hover,
 li > a:focus,
-li.sfHover > a,
-li.sfHover > a:hover,
 li.active > a,
 li.active > a:hover,
 li.active > a:focus {
@@ -127,26 +130,25 @@ li.active > a:focus {
 }
 
 li > a:hover:before,
-li > a:focus:before,
-li.sfHover > a:before,
-li.sfHover > a:hover:before,
-li.active > a:before,
-li.active > a:hover:before,
-li.active > a:focus:before {
-  width: 32px;
-  margin-left: -16px;
-}
-
 li > a:hover:after,
+li > a:focus:before,
 li > a:focus:after,
-li.sfHover > a:after,
-li.sfHover > a:hover:after,
+li.active > a:before,
 li.active > a:after,
+li.active > a:hover:before,
 li.active > a:hover:after,
+li.active > a:focus:before,
 li.active > a:focus:after {
   width: 32px;
   margin-left: -16px;
 }
+
+@media screen and (max-height: 500px) {
+  #top {
+    position: relative;
+  }
+}
+
 @media screen and (max-width: 575px) {
   ul {
     background: #8b4f2e;
