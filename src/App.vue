@@ -3,11 +3,7 @@
     <Header />
     <Carousel />
     <MaisPedidos />
-    <Parallax
-      text1="Feitos com muito amor e carinho"
-      text2="preços a partir de R$ 5,00"
-      background="url(/img/parallax1.jpg)"
-    />
+    <Parallax text1="Feitos com muito amor e carinho" text2="preços a partir de R$ 5,00" background="url(/img/parallax1.jpg)" />
     <div class="hl"></div>
     <Galeria />
     <div class="hl"></div>
@@ -41,14 +37,20 @@ export default Vue.extend({
     Parallax,
     Galeria,
     Contato,
-    Footer
+    Footer,
   },
 });
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lobster");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab");
+@font-face {
+  font-family: "Lobster";
+  src: local("Lobster"), url(./assets/fonts/Lobster/Lobster-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab"), url(./assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf) format("truetype");
+}
 
 #app {
   font-family: 14px "Roboto", Arial, Helvetica, sans-serif;
@@ -61,5 +63,17 @@ export default Vue.extend({
 .hl {
   height: 9px;
   background: url(./assets/hl.jpg) 0 0 repeat-x;
+}
+
+@media screen and (max-width: 768px) {
+  #app {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    font-size: 12px;
+  }
 }
 </style>
