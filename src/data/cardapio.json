@@ -2,73 +2,73 @@
     "gallery": [
         {
             "name": "a",
-            "path": "/img/gallery01.jpg"
+            "path": "/img/gallery01.avif"
         },
         {
             "name": "b",
-            "path": "/img/gallery02.jpg"
+            "path": "/img/gallery02.avif"
         },
         {
             "name": "c",
-            "path": "/img/gallery03.jpg"
+            "path": "/img/gallery03.avif"
         },
         {
             "name": "d",
-            "path": "/img/gallery04.jpg"
+            "path": "/img/gallery04.avif"
         },
         {
             "name": "e",
-            "path": "/img/gallery05.jpg"
+            "path": "/img/gallery05.avif"
         },
         {
             "name": "f",
-            "path": "/img/gallery06.jpg"
+            "path": "/img/gallery06.avif"
         },
         {
             "name": "g",
-            "path": "/img/gallery07.jpg"
+            "path": "/img/gallery07.avif"
         },
         {
             "name": "h",
-            "path": "/img/gallery08.jpg"
+            "path": "/img/gallery08.avif"
         },
         {
             "name": "i",
-            "path": "/img/gallery09.jpg"
+            "path": "/img/gallery09.avif"
         },
         {
             "name": "j",
-            "path": "/img/gallery10.jpg"
+            "path": "/img/gallery10.avif"
         },
         {
             "name": "k",
-            "path": "/img/gallery11.jpg"
+            "path": "/img/gallery11.avif"
         },
         {
             "name": "l",
-            "path": "/img/gallery12.jpg"
+            "path": "/img/gallery12.avif"
         }
     ],
     "maispedidos": [
         {
             "name": "a",
-            "path": "/img/banner1.jpg"
+            "path": "/img/banner1.avif"
         },
         {
             "name": "b",
-            "path": "/img/banner2.jpg"
+            "path": "/img/banner2.avif"
         },
         {
             "name": "c",
-            "path": "/img/banner3.jpg"
+            "path": "/img/banner3.avif"
         },
         {
             "name": "d",
-            "path": "/img/banner4.jpg"
+            "path": "/img/banner4.avif"
         },
         {
             "name": "e",
-            "path": "/img/banner5.jpg"
+            "path": "/img/banner5.avif"
         }
     ]
 }
