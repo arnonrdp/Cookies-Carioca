@@ -3,19 +3,19 @@
     <b-carousel :interval="3000" indicators data-aos="zoom-out-down">
       <b-carousel-slide caption="O Melhor Cookie" text="do Rio de Janeiro">
         <template #img>
-          <img class="d-block img-fluid w-100" src="/img/slide01.jpg" alt="image slot" />
+          <img class="d-block img-fluid w-100" src="/img/slide01.avif" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide caption="Prove Nossos Cookies">
         <template #img>
-          <img class="d-block img-fluid w-100" src="/img/slide02.jpg" alt="image slot" />
+          <img class="d-block img-fluid w-100" src="/img/slide02.avif" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide>
         <template #img>
-          <img class="d-block img-fluid w-100" src="/img/slide03.jpg" alt="image slot" />
+          <img class="d-block img-fluid w-100" src="/img/slide03.avif" alt="image slot" />
         </template>
       </b-carousel-slide>
     </b-carousel>

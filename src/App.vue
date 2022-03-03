@@ -3,14 +3,14 @@
     <Header />
     <Carousel />
     <MaisPedidos />
-    <Parallax text1="Feitos com muito amor e carinho" text2="preços a partir de R$ 5,00" background="url(/img/parallax1.jpg)" />
+    <Parallax text1="Feitos com muito amor e carinho" text2="preços a partir de R$ 5,00" background="url(/img/parallax1.avif)" />
     <div class="hl"></div>
     <Galeria />
     <div class="hl"></div>
     <Parallax
       text1="Um cardápio especial, para momentos especiais"
       text2="torne seu dia mais especial com os nossos cookies"
-      background="url(/img/parallax2.jpg)"
+      background="url(/img/parallax2.avif)"
     />
     <Contato />
     <div class="hl"></div>
@@ -43,14 +43,7 @@ export default Vue.extend({
 </script>
 
 <style>
-@font-face {
-  font-family: "Lobster";
-  src: local("Lobster"), url(./assets/fonts/Lobster/Lobster-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Roboto Slab";
-  src: local("Roboto Slab"), url(./assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf) format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300;400;700&display=swap");
 
 #app {
   font-family: 14px "Roboto", Arial, Helvetica, sans-serif;
