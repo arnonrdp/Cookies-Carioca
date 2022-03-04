@@ -77,7 +77,7 @@ li:nth-child(4) {
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #ead08f;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 24px;
   font-weight: bolder;
   line-height: 50px;
@@ -188,7 +188,7 @@ li.active > a:focus:after {
   li a {
     display: block;
     position: relative;
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;

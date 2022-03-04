@@ -51,7 +51,7 @@ export default Vue.extend({
 h2 {
   color: #5e2e02;
   display: inline-block;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 2;
@@ -70,13 +70,13 @@ h2::after {
 
 h3 {
   color: #5e2e02;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   margin: 20px 0;
 }
 
 .tel {
   color: #5e2e02;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   line-height: 1;
   font-size: 1.9rem;
   font-weight: bold;

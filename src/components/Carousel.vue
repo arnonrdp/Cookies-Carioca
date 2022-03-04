@@ -42,7 +42,7 @@ export default Vue.extend({
 
 .carousel-caption h3 {
   color: #fee8c5;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 3.875rem;
   font-weight: 400;
   line-height: 1;
@@ -50,7 +50,7 @@ export default Vue.extend({
 
 .carousel-caption p {
   color: #fee8c5;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-size: 3.875rem;
   font-weight: 300;
   line-height: 1;

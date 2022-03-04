@@ -4,7 +4,7 @@
     <p>Esses são os nossos cookies campeões de vendas e mais amados por nossos clientes.</p>
     <div class="gallery">
       <figure v-for="maispedido in maispedidos" data-aos="fade-up" :key="maispedido.name">
-        <img :src="maispedido.path" alt="" />
+        <img :src="maispedido.path" :alt="maispedido.name" />
       </figure>
     </div>
   </section>
@@ -31,7 +31,7 @@ export default Vue.extend({
 h2 {
   color: #5e2e02;
   display: inline-block;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 1;
@@ -49,7 +49,7 @@ h2::after {
 }
 
 p {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   margin: 1rem 0;
 }
 
@@ -57,18 +57,27 @@ p {
   align-items: center;
   display: flex;
   overflow-x: auto;
+  padding: 1.5rem 0;
+}
+
+.gallery figure {
+  border: 5px solid #fcf8f5;
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 40%);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgb(0 0 0 / 40%);
+  margin: 0 1rem;
+  position: relative;
+  width: 15rem;
 }
 
 .gallery img {
-  margin: 0 1rem;
-  width: 15rem;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {
   .gallery img {
     width: 12rem;
   }
-  
 }
 
 @media screen and (min-width: 1310px) {

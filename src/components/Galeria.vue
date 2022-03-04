@@ -2,10 +2,10 @@
   <section id="galeria">
     <h2>Galeria</h2>
     <div class="gallery d-flex flex-wrap justify-content-center">
-      <figure v-for="cookies in gallery" data-aos="zoom-out" :key="cookies.name">
-        <img :src="cookies.path" alt="" />
+      <figure v-for="cookie in cookies" data-aos="zoom-out" :key="cookie.name">
+        <img :src="cookie.path" :alt="cookie.name" />
         <div class="overlay">
-          <div class="text">{{ cookies.name }}</div>
+          <div class="text">{{ cookie.name }}</div>
         </div>
       </figure>
     </div>
@@ -19,7 +19,7 @@ import cardapio from "@/data/cardapio.json";
 export default Vue.extend({
   name: "Galeria",
   data: () => ({
-    gallery: cardapio.gallery,
+    cookies: cardapio.gallery,
   }),
 });
 </script>
@@ -33,7 +33,7 @@ export default Vue.extend({
 h2 {
   color: #5e2e02;
   display: inline-block;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 1;
