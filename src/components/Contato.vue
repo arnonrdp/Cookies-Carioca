@@ -2,8 +2,8 @@
   <section id="contato">
     <div class="wave"></div>
     <h2>Contato</h2>
-    <div class="row justify-content-evenly">
-      <div class="col-md-3 col-12" data-aos="fade-right">
+    <div class="row justify-content-evenly mx-0">
+      <div class="col-md-3 col-12" data-aos="fade-up">
         <h3>NOS LIGUE</h3>
         <a href="tel:+5521981672002" class="tel">(21) 98167-2002</a>
       </div>
