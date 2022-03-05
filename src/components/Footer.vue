@@ -2,7 +2,7 @@
   <section id="footer">
     <img src="@/assets/logo.svg" alt="" />
     <p class="my-0">Cookies Carioca &copy; desde 2021. Todos os direitos reservados.</p>
-    <a href="#top" class="animate__animated animate__shakeY"></a>
+    <a href="#home" class="animate__animated animate__shakeY"></a>
   </section>
 </template>
 
