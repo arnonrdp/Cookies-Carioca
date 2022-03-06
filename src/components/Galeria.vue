@@ -2,11 +2,8 @@
   <section id="galeria">
     <h2>Galeria</h2>
     <div class="gallery d-flex flex-wrap justify-content-center">
-      <figure v-for="cookie in cookies" data-aos="zoom-out" :key="cookie.name">
-        <img :src="cookie.path" :alt="cookie.name" />
-        <div class="overlay">
-          <div class="text">{{ cookie.name }}</div>
-        </div>
+      <figure v-for="(cookie, index) in cookies" data-aos="zoom-out" :key="index">
+        <img :src="cookie.path" alt="" />
       </figure>
     </div>
   </section>
@@ -65,6 +62,11 @@ h2::after {
   height: 100%;
   object-fit: cover;
   width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery figure:hover img {
+  transform: scale(1.25);
 }
 
 @media only screen and (max-width: 700px) {
@@ -78,31 +80,5 @@ h2::after {
   .gallery figure {
     width: 8rem;
   }
-}
-
-.overlay {
-  background-color: #482918;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: 0.5s ease;
-  width: 100%;
-}
-
-.gallery figure:hover .overlay {
-  opacity: 1;
-}
-.text {
-  color: #fffdf2;
-  font-size: 20px;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 </style>
