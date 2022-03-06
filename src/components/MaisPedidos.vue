@@ -3,8 +3,11 @@
     <h2>Mais Pedidos</h2>
     <p>Esses são os nossos cookies campeões de vendas e mais amados por nossos clientes.</p>
     <div class="gallery">
-      <figure v-for="maispedido in maispedidos" data-aos="fade-up" :key="maispedido.name">
-        <img :src="maispedido.path" :alt="maispedido.name" />
+      <figure v-for="cookie in cookies" data-aos="fade-up" :key="cookie.name">
+        <img :src="cookie.path" :alt="cookie.name" />
+        <div class="overlay">
+          <div class="text">{{ cookie.name }}</div>
+        </div>
       </figure>
     </div>
   </section>
@@ -17,7 +20,7 @@ import cardapio from "@/data/cardapio.json";
 export default Vue.extend({
   name: "MaisPedidos",
   data: () => ({
-    maispedidos: cardapio.maispedidos,
+    cookies: cardapio.maispedidos,
   }),
 });
 </script>
@@ -84,5 +87,32 @@ p {
   .gallery {
     justify-content: center;
   }
+}
+
+.overlay {
+  background-color: #482918;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.5s ease;
+  width: 100%;
+}
+
+.gallery figure:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: #fffdf2;
+  font-size: 1rem;
+  left: 50%;
+  position: absolute;
+  right: -50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 </style>
