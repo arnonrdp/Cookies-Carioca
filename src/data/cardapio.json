@@ -2,73 +2,73 @@
     "gallery": [
         {
             "name": "",
-            "path": "/img/gallery01.avif"
+            "path": "/img/gallery01.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery02.avif"
+            "path": "/img/gallery02.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery03.avif"
+            "path": "/img/gallery03.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery04.avif"
+            "path": "/img/gallery04.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery05.avif"
+            "path": "/img/gallery05.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery06.avif"
+            "path": "/img/gallery06.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery07.avif"
+            "path": "/img/gallery07.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery08.avif"
+            "path": "/img/gallery08.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery09.avif"
+            "path": "/img/gallery09.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery10.avif"
+            "path": "/img/gallery10.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery11.avif"
+            "path": "/img/gallery11.jpg"
         },
         {
             "name": "",
-            "path": "/img/gallery12.avif"
+            "path": "/img/gallery12.jpg"
         }
     ],
     "maispedidos": [
         {
             "name": "Cookie Especial Oreo: Massa Oreo com recheio de brigadeiro de Oreo",
-            "path": "/img/banner1.avif"
+            "path": "/img/banner1.jpg"
         },
         {
             "name": "Copo de Cookie: Doce de Leite ou Brigadeiro",
-            "path": "/img/banner2.avif"
+            "path": "/img/banner2.jpg"
         },
         {
             "name": "Cookie Recheado Limão Siciliano: Tradicional com recheio de Nutella ou Doce de Leite",
-            "path": "/img/banner3.avif"
+            "path": "/img/banner3.jpg"
         },
         {
             "name": "Cookie Especial Smore's: Massa Tradicional com Chocolate meio Amargo e Marshmallow",
-            "path": "/img/banner4.avif"
+            "path": "/img/banner4.jpg"
         },
         {
             "name": "Cookie Pie: Brigadeiro Tradicional ou Branco, Doce de Leite ou Brigadeiro de Ninho",
-            "path": "/img/banner5.avif"
+            "path": "/img/banner5.jpg"
         }
     ]
 }

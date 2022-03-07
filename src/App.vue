@@ -3,14 +3,14 @@
     <Header />
     <Carousel />
     <MaisPedidos />
-    <Parallax text1="Feitos com muito amor e carinho" text2="preços a partir de R$ 5,00" background="url(/img/parallax1.avif)" />
+    <Parallax text1="Feitos com muito amor e carinho" text2="preços a partir de R$ 5,00" background="url(/img/parallax1.jpg)" />
     <div class="hl"></div>
     <Galeria />
     <div class="hl"></div>
     <Parallax
       text1="Um cardápio especial, para momentos especiais"
       text2="torne seu dia mais especial com os nossos cookies"
-      background="url(/img/parallax2.avif)"
+      background="url(/img/parallax2.jpg)"
     />
     <Contato />
     <div class="hl"></div>
