@@ -9,17 +9,17 @@
       </div>
       <div class="col-md-3 col-12 my-md-0 my-3" data-aos="zoom-in">
         <h3>PEÇA PELO IFOOD</h3>
-        <a href="https://www.ifood.com.br/delivery/rio-de-janeiro-rj/cookies-carioca-meier/" target="_blank">
+        <a href="https://www.ifood.com.br/delivery/rio-de-janeiro-rj/cookies-carioca-meier/" target="_blank" rel="noopener">
           <img src="@/assets/ifood.svg" class="ifood" alt="Logotipo do ifood" />
         </a>
       </div>
       <div class="col-md-3 col-12" data-aos="fade-up">
         <h3>SIGA-NOS</h3>
-        <a href="https://instagram.com/cookiescarioca" target="_blank" class="social">
+        <a href="https://instagram.com/cookiescarioca" target="_blank" class="social" rel="noopener">
           <img src="@/assets/instagram.svg" alt="logotipo do Instagram" />
         </a>
         &nbsp;
-        <a href="https://wa.me/+552124290577" target="_blank" class="social">
+        <a href="https://wa.me/+552124290577" target="_blank" class="social" rel="noopener">
           <img src="@/assets/whatsapp.svg" alt="logotipo do Whatsapp" />
         </a>
       </div>
