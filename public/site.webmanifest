@@ -1,7 +1,7 @@
 {
     "name": "Cookies Carioca",
     "short_name": "Cookies Carioca",
-    "description": "O Melhor Cookie do Rio de Janeiro. Prove nossos Cookies.Ø",
+    "description": "O Melhor Cookie do Rio de Janeiro. Prove nossos Cookies.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
